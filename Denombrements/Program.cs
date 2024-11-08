@@ -19,7 +19,6 @@ namespace Denombrements
                 Console.WriteLine("Permutation ...................... 1");
                 Console.WriteLine("Arrangement ...................... 2");
                 Console.WriteLine("Combinaison ...................... 3");
-                Console.WriteLine("Quitter .......................... 0");
                 Console.Write("Choix :                            ");
                 choix = int.Parse(Console.ReadLine());
            
