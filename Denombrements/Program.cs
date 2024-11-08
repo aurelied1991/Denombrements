@@ -22,10 +22,7 @@ namespace Denombrements
                 Console.WriteLine("Quitter .......................... 0");
                 Console.Write("Choix :                            ");
                 choix = int.Parse(Console.ReadLine());
-                if (choix == 0) 
-                { 
-                    Environment.Exit(0); 
-                }
+           
                 if (choix == 1)
                 {
                     Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
