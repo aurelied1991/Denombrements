@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Denombrements
 {
     class Program
     {
+        /// <summary>
+        /// Réalisation de trois calculs mathématiques
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             int c = 1;
