@@ -19,13 +19,9 @@ namespace Denombrements
                 Console.WriteLine("Permutation ...................... 1");
                 Console.WriteLine("Arrangement ...................... 2");
                 Console.WriteLine("Combinaison ...................... 3");
-                Console.WriteLine("Quitter .......................... 0");
                 Console.Write("Choix :                            ");
                 choix = int.Parse(Console.ReadLine());
-                if (choix == 0) 
-                { 
-                    Environment.Exit(0); 
-                }
+           
                 if (choix == 1)
                 {
                     Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
